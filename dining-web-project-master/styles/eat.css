@@ -1,0 +1,206 @@
+/* GLOBALS */
+html {
+    font-family: 'HCo Ringside Narrow SSm', 'Arial', 'sans-serif';
+}
+
+h1 {
+    font-family: 'HCo Ringside Narrow SSm', 'Arial', 'sans-serif';
+    font-weight: lighter;
+    color: #002e5d;
+}
+
+h2 {
+    font-family: 'HCo Ringside Narrow SSm', 'Arial', 'sans-serif';
+    color: #666666;
+}
+
+
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/*HEADER STYLES*/
+#site-logo {
+    background-color: #002E5D;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    height: 50px;
+}
+
+    #site-logo a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #site-logo svg {
+        height: 50px;
+        float: left;
+    }
+
+#logo-text {
+    display: inline-block;
+    font-family: 'HCo Ringside Narrow SSm', 'Arial', 'sans-serif';
+    font-size: 14px;
+    float: left;
+    line-height: 17px;
+    padding-top: 8px;
+    text-align: left;
+}
+
+#site-title {
+    display: inline-block;
+    font-family: 'HCo Ringside Narrow SSm', 'Arial', 'sans-serif';
+    font-size: 1.5em;
+    line-height: 30px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+#site-slogan {
+    display: inline-block;
+    float: right;
+    font-style: italic;
+    font-family: 'HCo Ringside Narrow SSm', 'Arial', 'sans-serif';
+    font-size: 1em;
+    padding-top: 15px;
+}
+
+byu-header {
+    display: none;
+}
+
+@media screen and (max-width: 550px) {
+    #site-slogan {
+        display: none;
+    }
+
+    #site-title {
+        float: right
+    }
+}
+
+/*BANNER CONTAINER*/
+
+    .banner-container img{
+        width:100%;
+        display:none;
+    }
+    .banner-container .active{
+        display:inherit;
+    }
+
+/*EAT CONTAINER*/
+.eat-quote {
+    font-style: italic;
+    padding: 15em 0;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+@media only screen and (max-width: 800px) {
+    .eat-container {
+        display:block;
+    }
+}
+.eat-container {
+    display: grid;
+    grid-template-columns: 50% 1% 49%;
+    font-size: 16px;
+}
+    .eat-container span {
+        color: black;
+        font-style: normal;
+    }
+
+.eat-svg {
+    padding: 20px;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.eat-ribbon {
+    background-color: #002e5d;
+    border-radius: 25px;
+    margin: 20px 0px;
+
+}
+
+.eat-description {
+    padding: 0px 20px;
+}
+    .eat-description div{
+        display:none;
+    }
+    .eat-description .active{
+        display:inherit;
+    }
+
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #002e5d;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+    table caption {
+        background-color: #002e5d;
+        color: #FFFFFF;
+        padding: 1em;
+    }
+
+    table thead {
+        font-weight: bold;
+    }
+
+    table td {
+        border: 1px solid #002e5d;
+        padding: 1em;
+        line-height: 1.5em;
+    }
+
+/*SVG STYLES*/
+#svg-link {
+    text-align: center;
+}
+
+
+#vegetables:hover,
+#proteins:hover,
+#fruits:hover,
+#grains:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    transition: all .8s;
+}
+
+#vegetables:hover {
+    transform: scale(.99, 1.01);
+}
+
+#fruits:hover {
+    transform: scale(.99, .99);
+}
+
+#grains:hover {
+    transform: scale(1.01, .99);
+}
+
+#proteins:hover {
+    transform: scale(1.01, 1.01);
+}
+
+
+
+
+
